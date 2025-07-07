@@ -1,0 +1,175 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 700;
+  font-style :unset ;
+}
+
+
+
+body {
+  background-color: #191422;
+  color: #fff;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* الوضع النهاري (Light Mode) */
+body {
+    background-color: rgb(185, 165, 165);
+    color: #221120;
+    font-family: "Libertinus Mono", monospace;
+}
+
+/* الوضع الليلي (Dark Mode) */
+body.dark-mode {
+    background-color: #221120;
+    color: rgb(185, 165, 165);
+}
+
+button {
+    background-color: none;
+    color: rgb(71, 61, 61);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #221120;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+h4 {
+  color: #f5cdf0;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  color: #765888;
+  font-weight: 300;
+}
+/* تخصيص السطر */
+
+hr {
+    border: none;
+    border-top: 2px solid #f5cdf0;
+    margin: 20px 0;
+   
+}
+
+
+a {
+  color: #00bcd4;
+  text-decoration: navy;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.profile-name {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.profile-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #f5cdf0;
+  margin-top: 10px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color:rgb(73, 66, 72);
+  font-weight: 600;
+}
+
+
+
+
+
+/* Section Styles */
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: rgb(185, 165, 165);
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #aaa;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Media Queries (Responsive Design) */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .profile-name {
+    font-size: 2.5rem;
+  }
+
+  .profile-title {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+}
